@@ -1,0 +1,6 @@
+CREATE TABLE produtos (
+    id INT AUTO_INCREMENT PRIMARY KEY,  -- Identificador único para cada produto
+    produto VARCHAR(255) NOT NULL,      -- Nome do produto
+    valor DECIMAL(10, 2) NOT NULL,      -- Valor do produto (com 2 casas decimais)
+    imagem VARCHAR(255) NOT NULL        -- Nome do arquivo de imagem
+);
